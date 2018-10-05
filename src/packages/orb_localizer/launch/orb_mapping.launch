@@ -1,7 +1,7 @@
 <launch>
 	<param name="use_sim_time" value="true" />
 
-	<arg name="orb_config" default="/home/ohashi/orb_slam_autoware/src/orb_localizer/config/orb-slam2.yaml" />
+	<arg name="orb_config" default="/home/ohashi/localization_ws/src/packages/orb_localizer/config/orb-slam2.yaml" />
 	<arg name="map_file" default="/tmp/orbx.map" />
 	<arg name="mask_image" default="$(find orb_localizer)/config/mask.png" />
 	<arg name="image_topic" default="/camera/image_raw" />
