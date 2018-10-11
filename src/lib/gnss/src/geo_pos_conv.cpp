@@ -202,6 +202,7 @@ void geo_pos_conv::set_plane(int num)
   // convert longitude and latitude to rad
   m_PLato = M_PI * ((double)lat_deg + (double)lat_min / 60.0) / 180.0;
   m_PLo = M_PI * ((double)lon_deg + (double)lon_min / 60.0) / 180.0;
+  m_Ph=0;
 }
 
 void geo_pos_conv::set_xyz(double cx, double cy, double cz)
