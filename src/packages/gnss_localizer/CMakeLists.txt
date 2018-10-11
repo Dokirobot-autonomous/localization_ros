@@ -12,13 +12,21 @@ find_package(catkin REQUIRED COMPONENTS
         tf
         )
 
-catkin_package()
+find_package(cmake_modules REQUIRED)
+find_package(Eigen3 REQUIRED)
+
+catkin_package(
+        DEPENDS
+          eigen3)
 
 SET(CMAKE_CXX_FLAGS "-O2 -g -Wall ${CMAKE_CXX_FLAGS}")
 
 include_directories(
         ${catkin_INCLUDE_DIRS}
 )
+
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+include_directories(/usr/include/eigen3)
 
 add_executable(fix2tfpose
         nodes/fix2tfpose/fix2tfpose.cpp

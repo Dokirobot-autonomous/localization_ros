@@ -5,6 +5,7 @@
 
   <node pkg="gnss_localizer" type="nmea2tfpose" name="nmea2tfpose" output="screen">
     <param name="plane" value="$(arg plane)"/>
+    <remap from="odom_pose" to="/RosAria/pose"/>
   </node>
 
 </launch>

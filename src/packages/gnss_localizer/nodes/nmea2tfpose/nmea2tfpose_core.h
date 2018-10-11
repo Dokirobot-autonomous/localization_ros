@@ -38,8 +38,12 @@
 // ROS includes
 #include <ros/ros.h>
 #include <geometry_msgs/PoseStamped.h>
+#include <nav_msgs/Odometry.h>
 #include <nmea_msgs/Sentence.h>
 #include <tf/transform_broadcaster.h>
+#include <tf/transform_listener.h>
+#include <Eigen/Core>
+#include <Eigen/Geometry>
 #include <iostream>
 
 #include <gnss/geo_pos_conv.hpp>
@@ -64,10 +68,12 @@ private:
 
   // subscriber
   ros::Subscriber sub1_;
+  ros::Subscriber sub2_;
 
   // constants
   const std::string MAP_FRAME_;
   const std::string GPS_FRAME_;
+  const std::string ODOM_FRAME_;
 
   // variables
   int32_t plane_number_;
@@ -77,9 +83,14 @@ private:
   double orientation_time_, position_time_;
   ros::Time current_time_, orientation_stamp_;
   tf::TransformBroadcaster br_;
+  geometry_msgs::Pose odom_pose;
+  double tf_map2odom[6];
+
+  bool init_;
 
   // callbacks
   void callbackFromNmeaSentence(const nmea_msgs::Sentence::ConstPtr &msg);
+  void callbackFromOdomPose(const nav_msgs::Odometry::ConstPtr &msg);
 
   // initializer
   void initForROS();
@@ -87,7 +98,9 @@ private:
   // functions
   void publishPoseStamped();
   void publishTF();
+  void publishTFMap2Odom();
   void createOrientation();
+  void computeTransformationMap2Odom();
   void convert(std::vector<std::string> nmea, ros::Time current_stamp);
 };
 
