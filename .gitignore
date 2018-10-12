@@ -1,0 +1,6 @@
+# いらないフォルダ
+devel/
+build/
+
+# いらないファイル
+src/packages/orb_localizer/Vocabulary/ORBvoc.txt
