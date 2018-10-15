@@ -1,11 +1,13 @@
 # いらないフォルダ
-devel/
-build/
+catkin_ws/devel/
+catkin_ws/build/
 
 # いらないファイル
-src/packages/orb_localizer/Vocabulary/ORBvoc.txt
+catkin_ws/src/packages/orb_localizer/Vocabulary/ORBvoc.txt
 without_catkin/orb_slam_ros/Vocabulary/ORBvoc.txt
 without_catkin/Pangolin/build/
 without_catkin/orb_slam_ros/Thirdparty/DBoW2/build/
 without_catkin/orb_slam_ros/Thirdparty/g2o/build/
 without_catkin/orb_slam_ros/build/
+Autoware/ros/build/
+Autoware/ros/devel/
