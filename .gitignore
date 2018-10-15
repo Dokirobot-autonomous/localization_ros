@@ -9,6 +9,12 @@ without_catkin/Pangolin/build/
 without_catkin/orb_slam_ros/Thirdparty/DBoW2/build/
 without_catkin/orb_slam_ros/Thirdparty/g2o/build/
 without_catkin/orb_slam_ros/build/
-Autoware/ros/build/
-Autoware/ros/devel/
+without_catkin/Autoware/ros/build/
+without_catkin/Autoware/ros/devel/
+without_catkin/limo/build/
+without_catkin/limo/build_limo_release/
+without_catkin/limo/devel/
+without_catkin/limo/devel_limo_release/
+without_catkin/limo/logs/
+without_catkin/limo/logs_limo_release/
 
