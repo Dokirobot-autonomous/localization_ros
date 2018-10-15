@@ -15,7 +15,11 @@ cd ../../
 
 echo "-----　　 Setup orb_slam_ros　　 -----"
 git clone https://github.com/Razbotics/orb_slam_ros.git 
+<<<<<<< HEAD
 echo "export ROS_PACKAGE_PATH=""$""{ROS_PACKAGE_PATH}:$(pwd)" >> ~/.bashrc
+=======
+echo "export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:$(pwd)" >> ~/.bashrc
+>>>>>>> f1b8127f33fc585280160868fbfbe038e55c0297
 source ~/.bashrc
 
 cd orb_slam_ros/Thirdparty/DBoW2
