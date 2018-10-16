@@ -1,0 +1,8 @@
+prefix=/home/ohashi/localization_ws/catkin_ws/src/cmake-build-debug/devel
+
+Name: nmea_navsat
+Description: Description of nmea_navsat
+Version: 1.8.0
+Cflags: 
+Libs: -L/home/ohashi/localization_ws/catkin_ws/src/cmake-build-debug/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: gnss_localizer
+Description: Description of gnss_localizer
+Version: 1.8.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

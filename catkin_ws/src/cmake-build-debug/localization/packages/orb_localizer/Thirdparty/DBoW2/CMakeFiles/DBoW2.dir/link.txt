@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../../devel/lib/libDBoW2.a  CMakeFiles/DBoW2.dir/BowVector.cpp.o CMakeFiles/DBoW2.dir/FORB.cpp.o CMakeFiles/DBoW2.dir/FeatureVector.cpp.o CMakeFiles/DBoW2.dir/ScoringObject.cpp.o CMakeFiles/DBoW2.dir/DUtils/Random.cpp.o CMakeFiles/DBoW2.dir/DUtils/Timestamp.cpp.o
+/usr/bin/ranlib ../../../../../devel/lib/libDBoW2.a

@@ -1,0 +1,8 @@
+prefix=/home/ohashi/localization_ws/catkin_ws/src/cmake-build-debug/devel
+
+Name: gnss
+Description: Description of gnss
+Version: 1.8.0
+Cflags: -I/home/ohashi/localization_ws/catkin_ws/src/localization/lib/gnss/include
+Libs: -L/home/ohashi/localization_ws/catkin_ws/src/cmake-build-debug/devel/lib -lgnss
+Requires: 

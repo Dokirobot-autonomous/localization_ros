@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/without_catkin/Autoware" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/without_catkin/Autoware/ros/src/msgs/platform_automation_msgs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/without_catkin/Pangolin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/without_catkin/limo/src/feature_tracking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/without_catkin/limo/src/limo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/without_catkin/limo/src/mono_lidar_depth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/without_catkin/limo/src/mrt_cmake_modules" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/without_catkin/limo/src/rosinterface_handler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/without_catkin/limo/src/viso2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/without_catkin/orb_slam_ros" vcs="Git" />
+  </component>
+</project>

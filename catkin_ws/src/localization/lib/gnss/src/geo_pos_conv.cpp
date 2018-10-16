@@ -37,6 +37,7 @@ double geo_pos_conv::x() const
 
 double geo_pos_conv::y() const
 {
+
   return m_y;
 }
 
