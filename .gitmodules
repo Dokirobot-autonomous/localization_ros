@@ -1,0 +1,4 @@
+[submodule "without_catkin/Autoware"]
+	path = without_catkin/Autoware
+	url = https://github.com/Dokirobot-autonomous/Autoware.git
+	branch = ohashi_devel
