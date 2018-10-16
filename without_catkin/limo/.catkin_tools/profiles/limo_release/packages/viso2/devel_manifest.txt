@@ -1,5 +1,0 @@
-viso2
-/home/ohashi/limo/devel_limo_release/.private/viso2/share/viso2/cmake/viso2Config.cmake /home/ohashi/limo/devel_limo_release/share/viso2/cmake/viso2Config.cmake
-/home/ohashi/limo/devel_limo_release/.private/viso2/share/viso2/cmake/viso2Config-version.cmake /home/ohashi/limo/devel_limo_release/share/viso2/cmake/viso2Config-version.cmake
-/home/ohashi/limo/devel_limo_release/.private/viso2/lib/libviso2.so /home/ohashi/limo/devel_limo_release/lib/libviso2.so
-/home/ohashi/limo/devel_limo_release/.private/viso2/lib/pkgconfig/viso2.pc /home/ohashi/limo/devel_limo_release/lib/pkgconfig/viso2.pc
